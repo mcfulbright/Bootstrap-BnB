@@ -14,13 +14,37 @@
 </head>
 
 <body>
-    <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Home</a>
+   
+
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Home</a>
+            </div>
+        </nav>
+        <h1>Contact Us</h1>
+
+        <form method="get" action="thankyou.html">
+        <div class="mb-3">
+            <label for="name" class="form-control">Name</label>
+            <input type="text"  id="name" placeholder="Name" required>
+
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+
         </div>
-    </nav>
-    <h1>Contact Us</h1>
-    
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Additional Information</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-dark">Submit</button>
+
+        <div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2852.8052782620284!2d-71.90970092392992!3d44.35505117107754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb443b5348bb999%3A0xbf20d54500a2c8cd!2s48%20Lower%20Waterford%20Rd%20Fork%2C%20Waterford%2C%20VT%2005819!5e0!3m2!1sen!2sus!4v1700527333742!5m2!1sen!2sus"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </form>
 </body>
 
 </html>
